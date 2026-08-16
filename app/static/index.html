@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Etsy Data Pipeline</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <main>
+      <nav><strong>MARKET<span>PULSE</span></strong><div id="health">Checking pipeline…</div></nav>
+      <header><div><p class="overline">AUTOMATION / DATA ENGINEERING</p><h1>Collection intelligence,<br><em>on schedule.</em></h1></div><button id="run">Run pipeline now ↗</button></header>
+      <section class="stats" id="stats"><article><small>Listings</small><strong>—</strong></article><article><small>Pipeline runs</small><strong>—</strong></article><article><small>Success rate</small><strong>—</strong></article><article><small>Average price</small><strong>—</strong></article></section>
+      <section class="layout">
+        <div class="panel"><div class="title"><div><small>CATALOG SNAPSHOT</small><h2>Latest listings</h2></div><span id="listing-count">0 records</span></div><div id="listings" class="listings"></div></div>
+        <aside class="panel"><div class="title"><div><small>AUTOMATION LOG</small><h2>Recent runs</h2></div></div><div id="runs" class="runs"></div></aside>
+      </section>
+      <p class="message" id="message"></p>
+    </main>
+    <script src="/static/app.js" defer></script>
+  </body>
+</html>
