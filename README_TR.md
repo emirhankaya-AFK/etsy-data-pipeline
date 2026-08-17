@@ -1,6 +1,6 @@
 # Etsy Data Pipeline
 
-[English](README.md) | [Türkçe](README_TR.md)
+[English](README.md) | [Türkçe](README_TR.md) | [Deutsch](README_DE.md)
 
 ![Demo](docs/demo.svg)
 
