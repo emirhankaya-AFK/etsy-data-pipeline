@@ -2,6 +2,12 @@
 
 [English](README.md) | [Türkçe](README_TR.md)
 
+![Demo](docs/demo.svg)
+
+## Portföy demosu
+
+Collector akışı Playwright için hazırdır: ilanları toplar, geçici hataları tekrar dener, kayıtları saklar ve eşleşme/durum analizini panelde gösterir.
+
 Mevcut Etsy koleksiyon fikrini production-style veri mühendisliği projesine dönüştüren sistemdir. Playwright ile zamanlanmış veri toplama, geçici hatalarda tekrar deneme, PostgreSQL upsert, fiyat geçmişi ve küçük analiz paneli içerir.
 
 ## Özellikler

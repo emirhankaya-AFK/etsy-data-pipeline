@@ -2,6 +2,12 @@
 
 [English](README.md) | [Türkçe](README_TR.md)
 
+![Demo](docs/demo.svg)
+
+## Portfolio demo
+
+The collector flow is Playwright-ready: collect listings, retry transient failures, persist records and inspect matching/status analytics in the dashboard.
+
 A production-style browser automation and data engineering project built from the original Etsy collection concept. It runs scheduled Playwright collection jobs, retries transient failures, upserts normalized listing data into PostgreSQL, keeps price observations, and presents a compact analytics dashboard.
 
 ## Features
